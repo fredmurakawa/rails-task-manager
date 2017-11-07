@@ -1,0 +1,8 @@
+<h1>Task Details</h1>
+
+<h3>Task: <%= @task.description %></h3>
+<p>Created at: <%= @task.created_at %></p>
+<p>Deadline: <%= @task.deadline %></p>
+<p>Done? <%= @task.done %></p>
+
+<%= link_to 'Back', tasks_path %>
